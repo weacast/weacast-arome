@@ -1,0 +1,21 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - weacast-arpege > request > hawk > hoek:
+        patched: '2018-12-08T08:57:36.769Z'
+    - weacast-arpege > feathers-authentication > jsonwebtoken > joi > hoek:
+        patched: '2018-12-08T08:57:36.769Z'
+    - weacast-arpege > request > hawk > boom > hoek:
+        patched: '2018-12-08T08:57:36.769Z'
+    - weacast-arpege > request > hawk > sntp > hoek:
+        patched: '2018-12-08T08:57:36.769Z'
+    - weacast-arpege > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-08T08:57:36.769Z'
+    - weacast-arpege > feathers-authentication > jsonwebtoken > joi > topo > hoek:
+        patched: '2018-12-08T08:57:36.769Z'
+  'npm:moment:20170905':
+    - weacast-arpege > moment:
+        patched: '2018-12-08T08:57:36.769Z'
